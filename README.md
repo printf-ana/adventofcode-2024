@@ -1,2 +1,19 @@
-# adventofcode-2024
-https://adventofcode.com/2024/
+ ![aoc-printf-ana](https://github.com/user-attachments/assets/393e8125-cd62-4c77-ab68-7784a4d2c3c5)
+
+## Progress
+
+| Day | Part One | Part Two | Day | Part One | Part Two |
+|-----|----------|----------|-----|----------|----------|
+| 01  |   ⭐     |   ⭐     | 14  |          |          |
+| 02  |          |          | 15  |          |          |
+| 03  |          |          | 16  |          |          |
+| 04  |          |          | 17  |          |          |
+| 05  |          |          | 18  |          |          |
+| 06  |          |          | 19  |          |          |
+| 07  |          |          | 20  |          |          |
+| 08  |          |          | 21  |          |          |
+| 09  |          |          | 22  |          |          |
+| 10  |          |          | 23  |          |          |
+| 11  |          |          | 24  |          |          |
+| 12  |          |          | 25  |          |          |
+| 13  |          |          |     |          |          |
