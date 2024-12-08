@@ -1,14 +1,9 @@
-import inputOfProblem from "./input.js";
-
-const result = inputOfProblem
-  .split("\n")
-  .filter((line) => line.trim() !== "")
-  .map((line) => line.split(" ").map((item) => parseInt(item.trim())));
+import { createsArrayForEachLineAtArray } from "../utils";
 
 const travelEachArray = () => {
   let arrayOfEverything = [];
 
-  result.forEach((array) => {
+  createsArrayForEachLineAtArray.forEach((array) => {
     let checkIfIsSafe = {
       outOfScope: false,
       aumentando: false,
@@ -32,7 +27,7 @@ const travelEachArray = () => {
       }
     }
 
-    if (!(checkIfIsSafe.aumentando ^ checkIfIsSafe.diminuindo)) {
+    if (!(checkIfIsSafe.aumentando === checkIfIsSafe.diminuindo)) {
       checkIfIsSafe.valid = false;
     }
 
